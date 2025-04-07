@@ -1,7 +1,7 @@
-import express from "ultimate-express";
 import path from "node:path";
 import compression from "compression";
 import responseTime from "response-time";
+import express from "ultimate-express";
 
 import healthRoute from "./routes/health.route";
 
