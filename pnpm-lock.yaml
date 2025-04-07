@@ -12,10 +12,10 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       '@types/compression':
-        specifier: ^1.7.5
+        specifier: 1.7.5
         version: 1.7.5
       '@types/response-time':
-        specifier: ^2.3.8
+        specifier: 2.3.8
         version: 2.3.8
       compression:
         specifier: ^1.8.0
@@ -46,7 +46,7 @@ importers:
         specifier: ^0.6.1
         version: 0.6.1
       '@types/node':
-        specifier: ^22.14.0
+        specifier: 22.14.0
         version: 22.14.0
       '@types/supertest':
         specifier: 6.0.3
@@ -61,7 +61,7 @@ importers:
         specifier: 7.1.0
         version: 7.1.0
       typescript:
-        specifier: ^5.8.3
+        specifier: 5.8.3
         version: 5.8.3
       unplugin-swc:
         specifier: ^1.5.1
