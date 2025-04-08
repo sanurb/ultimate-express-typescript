@@ -1,8 +1,6 @@
-import { Router } from "ultimate-express";
+import type { Express } from "ultimate-express";
 import { getHealth } from "../controllers/health_controller";
 
-const router = Router();
-
-router.get("/", getHealth);
-
-export default router;
+export const mountHealthRoutes = (app: Express): void => {
+  app.get("/health", getHealth);
+};

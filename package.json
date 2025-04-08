@@ -50,6 +50,7 @@
     "unplugin-swc": "1.5.1",
     "vitest": "3.1.1",
     "vitest-mock-extended": "3.1.0",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.48.0",
     "wait-on": "8.0.3"
   },
   "packageManager": "pnpm@10.7.1"

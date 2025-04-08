@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@reflet/http':
-        specifier: ^1.0.0
+        specifier: 1.0.0
         version: 1.0.0
       '@types/compression':
         specifier: 1.7.5
@@ -18,32 +18,32 @@ importers:
         specifier: 2.3.8
         version: 2.3.8
       compression:
-        specifier: ^1.8.0
+        specifier: 1.8.0
         version: 1.8.0
       install:
-        specifier: ^0.13.0
+        specifier: 0.13.0
         version: 0.13.0
       response-time:
-        specifier: ^2.3.3
+        specifier: 2.3.3
         version: 2.3.3
       ultimate-express:
         specifier: 1.4.2
         version: 1.4.2
     devDependencies:
       '@amiceli/vitest-cucumber':
-        specifier: ^4.7.0
+        specifier: 4.7.0
         version: 4.7.0(@types/node@22.14.0)
       '@biomejs/biome':
         specifier: 1.9.4
         version: 1.9.4
       '@swc/cli':
-        specifier: ^0.6.0
+        specifier: 0.6.0
         version: 0.6.0(@swc/core@1.11.16)(chokidar@4.0.3)
       '@swc/core':
-        specifier: ^1.11.16
+        specifier: 1.11.16
         version: 1.11.16
       '@total-typescript/ts-reset':
-        specifier: ^0.6.1
+        specifier: 0.6.1
         version: 0.6.1
       '@types/node':
         specifier: 22.14.0
@@ -52,10 +52,10 @@ importers:
         specifier: 6.0.3
         version: 6.0.3
       chokidar:
-        specifier: ^4.0.3
+        specifier: 4.0.3
         version: 4.0.3
       concurrently:
-        specifier: ^9.1.2
+        specifier: 9.1.2
         version: 9.1.2
       supertest:
         specifier: 7.1.0
@@ -63,17 +63,20 @@ importers:
       typescript:
         specifier: 5.8.3
         version: 5.8.3
+      uWebSockets.js:
+        specifier: github:uNetworking/uWebSockets.js#v20.48.0
+        version: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/51ae1d1fd92dff77cbbdc7c431021f85578da1a6
       unplugin-swc:
-        specifier: ^1.5.1
+        specifier: 1.5.1
         version: 1.5.1(@swc/core@1.11.16)(rollup@4.39.0)
       vitest:
         specifier: 3.1.1
         version: 3.1.1(@types/node@22.14.0)
       vitest-mock-extended:
-        specifier: ^3.1.0
+        specifier: 3.1.0
         version: 3.1.0(typescript@5.8.3)(vitest@3.1.1(@types/node@22.14.0))
       wait-on:
-        specifier: ^8.0.3
+        specifier: 8.0.3
         version: 8.0.3
 
 packages:
@@ -1827,6 +1830,10 @@ packages:
     resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
+
+  uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/51ae1d1fd92dff77cbbdc7c431021f85578da1a6:
+    resolution: {tarball: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/51ae1d1fd92dff77cbbdc7c431021f85578da1a6}
+    version: 20.48.0
 
   uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/6609a88ffa9a16ac5158046761356ce03250a0df:
     resolution: {tarball: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/6609a88ffa9a16ac5158046761356ce03250a0df}
@@ -3590,6 +3597,8 @@ snapshots:
       mime-types: 2.1.35
 
   typescript@5.8.3: {}
+
+  uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/51ae1d1fd92dff77cbbdc7c431021f85578da1a6: {}
 
   uWebSockets.js@https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/6609a88ffa9a16ac5158046761356ce03250a0df: {}
 

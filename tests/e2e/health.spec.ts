@@ -1,7 +1,10 @@
 import path from "node:path";
 import { describeFeature, loadFeature } from "@amiceli/vitest-cucumber";
-import request from "supertest";
+import { SuperTest } from "supertest";
+import Test from "supertest/lib/test";
 import { expect } from "vitest";
+import { app } from "#src/app.ts";
+import { createUwsSupertest } from "#tests/utils/uWSSupertest.ts";
 
 const feature = await loadFeature(
   path.join(__dirname, "../features/health.feature"),
@@ -9,10 +12,11 @@ const feature = await loadFeature(
 
 describeFeature(feature, ({ Scenario }) => {
   Scenario("Check if the server is alive", ({ When, Then, And }) => {
-    let response: request.Response;
+    const request = createUwsSupertest(app);
+    let response: Awaited<ReturnType<typeof request.get>>;
 
     When('I send a GET request to "/health"', async () => {
-      response = await request("http://localhost:3000").get("/health");
+      response = await request.get("/health");
     });
 
     Then("I should receive a 200 status code", () => {
