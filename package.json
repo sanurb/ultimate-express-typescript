@@ -40,7 +40,7 @@
     "@amiceli/vitest-cucumber": "4.7.0",
     "@biomejs/biome": "1.9.4",
     "@swc/cli": "0.6.0",
-    "@swc/core": "1.11.16",
+    "@swc/core": "1.11.18",
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "22.14.0",
     "@types/supertest": "6.0.3",
@@ -54,5 +54,5 @@
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.48.0",
     "wait-on": "8.0.3"
   },
-  "packageManager": "pnpm@10.7.1"
+  "packageManager": "pnpm@10.8.0"
 }
