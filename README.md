@@ -1,5 +1,3 @@
-# Ultimate Express TypeScript Boilerplate
-
 <div align = "center">
 
 <h1><a href="https://github.com/sanurb/ultimate-express-typescript">ultimate-express-typescript</a></h1>
@@ -68,7 +66,7 @@ This boilerplate is designed to help you:
 
 ### Quick Clone with tiged/degit
 
-For a fast, lightweight clone of this repository, we recommend using [tiged](https://github.com/alexrothenberg/tiged) (or the alias degit). Instead of using `git clone` and downloading the entire commit history, run the following command:
+For a fast, lightweight clone of this repository, we recommend using [tiged](https://github.com/tiged/tiged) (or the alias degit). Instead of using `git clone` and downloading the entire commit history, run the following command:
 
 ```bash
 tiged sanurb/ultimate-express-typescript my-app
