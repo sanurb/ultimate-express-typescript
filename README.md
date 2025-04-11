@@ -14,7 +14,6 @@
 
 A high-performance boilerplate for creating TypeScript HTTP servers using [Ultimate Express](https://github.com/dimdenGD/ultimate-express) – a drop-in, faster alternative to Express built on µWebSockets. This project is engineered to save time and eliminate boilerplate by providing a production-ready template with modern tooling, streamlined cloning, and robust configuration.
 
----
 
 ## Table of Contents
 
@@ -32,7 +31,7 @@ A high-performance boilerplate for creating TypeScript HTTP servers using [Ultim
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
----
+
 
 ## Introduction
 
@@ -60,7 +59,6 @@ This boilerplate is designed to help you:
 - Unified Code Style: Biomejs for consistent coding standards
 - Docker Support: Ready for containerization and deployment
 
----
 
 ## Getting Started
 
@@ -83,7 +81,6 @@ cd my-app
 pnpm i
 ```
 
----
 
 ## Usage
 
@@ -137,7 +134,7 @@ pnpm lint:fix   # to automatically fix issues
 pnpm format     # to format your codebase using Biome
 ```
 
----
+
 
 ## Project Structure
 
@@ -172,14 +169,14 @@ ultimate-express-typescript/
 ├── tsconfig.json
 └── README.md
 ```
----
+
 
 ## Contributing
 
 Contributions are welcome!
 Feel free to open issues or submit pull requests on GitHub. Let’s work together to improve this boilerplate and enhance the developer experience.
 
----
+
 
 ## License
 
