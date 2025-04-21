@@ -54,5 +54,5 @@
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.48.0",
     "wait-on": "8.0.3"
   },
-  "packageManager": "pnpm@10.8.1"
+  "packageManager": "pnpm@10.9.0"
 }
