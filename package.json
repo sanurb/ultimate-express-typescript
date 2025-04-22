@@ -48,7 +48,7 @@
     "concurrently": "9.1.2",
     "supertest": "7.1.0",
     "typescript": "5.8.3",
-    "unplugin-swc": "1.5.1",
+    "unplugin-swc": "1.5.2",
     "vitest": "3.1.2",
     "vitest-mock-extended": "3.1.0",
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.48.0",
