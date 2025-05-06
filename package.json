@@ -37,7 +37,7 @@
     "ultimate-express": "1.4.9"
   },
   "devDependencies": {
-    "@amiceli/vitest-cucumber": "4.7.0",
+    "@amiceli/vitest-cucumber": "5.0.0",
     "@biomejs/biome": "1.9.4",
     "@swc/cli": "0.7.3",
     "@swc/core": "1.11.24",
