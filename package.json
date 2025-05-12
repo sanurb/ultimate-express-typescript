@@ -39,7 +39,7 @@
   "devDependencies": {
     "@amiceli/vitest-cucumber": "5.0.0",
     "@biomejs/biome": "1.9.4",
-    "@swc/cli": "0.7.5",
+    "@swc/cli": "0.7.7",
     "@swc/core": "1.11.24",
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "22.15.17",
