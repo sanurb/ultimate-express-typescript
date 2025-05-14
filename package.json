@@ -42,7 +42,7 @@
     "@swc/cli": "0.7.7",
     "@swc/core": "1.11.24",
     "@total-typescript/ts-reset": "0.6.1",
-    "@types/node": "22.15.17",
+    "@types/node": "22.15.18",
     "@types/supertest": "6.0.3",
     "chokidar": "4.0.3",
     "concurrently": "9.1.2",
