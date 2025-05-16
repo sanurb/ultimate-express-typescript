@@ -27,8 +27,8 @@ importers:
         specifier: 2.3.3
         version: 2.3.3
       ultimate-express:
-        specifier: 2.0.0
-        version: 2.0.0
+        specifier: 2.0.1
+        version: 2.0.1
     devDependencies:
       '@amiceli/vitest-cucumber':
         specifier: 5.0.0
@@ -67,8 +67,8 @@ importers:
         specifier: github:uNetworking/uWebSockets.js#v20.48.0
         version: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/51ae1d1fd92dff77cbbdc7c431021f85578da1a6
       unplugin-swc:
-        specifier: 1.5.2
-        version: 1.5.2(@swc/core@1.11.24)(rollup@4.40.0)
+        specifier: 1.5.3
+        version: 1.5.3(@swc/core@1.11.24)(rollup@4.40.0)
       vitest:
         specifier: 3.1.3
         version: 3.1.3(@types/node@22.15.18)
@@ -1698,8 +1698,8 @@ packages:
     resolution: {integrity: sha512-ZPtzy0hu4cZjv3z5NW9gfKnNLjoz4y6uv4HlelAjDK7sY/xOkKZv9xK/WQpcsBB3jEybChz9DPC2U/+cusjJVQ==}
     engines: {node: '>=18'}
 
-  ultimate-express@2.0.0:
-    resolution: {integrity: sha512-qOL4ZgLRETfpIh3gv1lM7ogRhF/yIHAxTFYTNz+zrT9b2ckb1oPFQ1wWDxShMYm8/Qcq99ZUxXx9O7x/+viG8A==}
+  ultimate-express@2.0.1:
+    resolution: {integrity: sha512-CJ0j7zANViqQVhhX1z1BdZYfFcSXmtUUSMCTRnnv1LMMMwhz91lw+kyWXn0ubjPGsTFLQebwapco4JvevxrjLA==}
     engines: {node: '>=20'}
 
   unbzip2-stream@1.4.3:
@@ -1708,14 +1708,14 @@ packages:
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
-  unplugin-swc@1.5.2:
-    resolution: {integrity: sha512-bf8DJO8lD1wpnwFglQpVH2XEaFfVsSU5C7yFyLwGT1gxskPtejlDeuttKxjtmHTSqrDsQrK0FCFdhw3Ny+K7hA==}
+  unplugin-swc@1.5.3:
+    resolution: {integrity: sha512-lfBT7Wtauf/1y89xGt+x8+T7yB7bCMq/qXeXcOcqQddKDULGEg/4O2201Eh6eCBxbEi8J1Tmy2scG5dhiBJONg==}
     peerDependencies:
       '@swc/core': ^1.2.108
 
-  unplugin@1.16.1:
-    resolution: {integrity: sha512-4/u/j4FrCKdi17jaxuJA0jClGxB1AvU2hw/IuayPc4ay1XGaJs/rbb4v5WKwAjNifjmXK9PIFyuPiaK8azyR9w==}
-    engines: {node: '>=14.0.0'}
+  unplugin@2.3.4:
+    resolution: {integrity: sha512-m4PjxTurwpWfpMomp8AptjD5yj8qEZN5uQjjGM3TAs9MWWD2tXSSNNj6jGR2FoVGod4293ytyV6SwBbertfyJg==}
+    engines: {node: '>=18.12.0'}
 
   vary@1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
@@ -3298,7 +3298,7 @@ snapshots:
 
   uint8array-extras@1.4.0: {}
 
-  ultimate-express@2.0.0:
+  ultimate-express@2.0.1:
     dependencies:
       '@types/express': 4.17.21
       accepts: 1.3.8
@@ -3329,18 +3329,19 @@ snapshots:
 
   undici-types@6.21.0: {}
 
-  unplugin-swc@1.5.2(@swc/core@1.11.24)(rollup@4.40.0):
+  unplugin-swc@1.5.3(@swc/core@1.11.24)(rollup@4.40.0):
     dependencies:
       '@rollup/pluginutils': 5.1.4(rollup@4.40.0)
       '@swc/core': 1.11.24
       load-tsconfig: 0.2.5
-      unplugin: 1.16.1
+      unplugin: 2.3.4
     transitivePeerDependencies:
       - rollup
 
-  unplugin@1.16.1:
+  unplugin@2.3.4:
     dependencies:
       acorn: 8.14.1
+      picomatch: 4.0.2
       webpack-virtual-modules: 0.6.2
 
   vary@1.1.2: {}
