@@ -34,7 +34,7 @@
     "compression": "1.8.0",
     "install": "0.13.0",
     "response-time": "2.3.3",
-    "ultimate-express": "2.0.1"
+    "ultimate-express": "2.0.2"
   },
   "devDependencies": {
     "@amiceli/vitest-cucumber": "5.0.0",
