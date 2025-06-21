@@ -34,13 +34,13 @@
     "compression": "1.8.0",
     "install": "0.13.0",
     "response-time": "2.3.3",
-    "ultimate-express": "2.0.6"
+    "ultimate-express": "2.0.7"
   },
   "devDependencies": {
     "@amiceli/vitest-cucumber": "5.1.0",
     "@biomejs/biome": "1.9.4",
     "@swc/cli": "0.7.7",
-    "@swc/core": "1.12.1",
+    "@swc/core": "1.12.5",
     "@total-typescript/ts-reset": "0.6.1",
     "@types/node": "22.15.32",
     "@types/supertest": "6.0.3",
@@ -48,7 +48,7 @@
     "concurrently": "9.1.2",
     "supertest": "7.1.1",
     "typescript": "5.8.3",
-    "unplugin-swc": "1.5.4",
+    "unplugin-swc": "1.5.5",
     "vitest": "3.2.3",
     "vitest-mock-extended": "3.1.0",
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.48.0",
