@@ -52,7 +52,7 @@
     "vitest": "3.2.3",
     "vitest-mock-extended": "3.1.0",
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.48.0",
-    "wait-on": "8.0.3"
+    "wait-on": "9.1.0"
   },
   "packageManager": "pnpm@10.12.1"
 }
